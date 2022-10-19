@@ -1,0 +1,16 @@
+UseKeychain yes
+AddKeysToAgent yes
+Host 11.222.223.224
+    ## My favorite server
+	HostName 11.222.223.224
+	User dummy
+	IdentityFile ~/.ssh/id_rsa
+Host 11.22.22.122
+	## My least favorite server
+	HostName 11.22.22.122
+	User yolo
+Host 44.33.112.34
+	## I hate this guy
+  	HostName 44.33.112.34
+	User root
+	IdentityFile ~/.ssh/yolo_vm
